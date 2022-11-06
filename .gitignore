@@ -4,3 +4,4 @@ logs/
 resources/
 buckets.json
 bob_the_bucket_builder.py
+settings.yaml
