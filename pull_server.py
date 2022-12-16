@@ -20,5 +20,5 @@ if __name__ == '__main__':
                       aws_secret_access_key=s.AWS['aws_secret_access_key'])
 
     os.makedirs(Path('./resources/in'), exist_ok=True)
-    with open(Path('./resources/in/', 'AleksyWorld.zip'), 'wb') as f:
+    with open(Path('./resources/in/', 'Hrmmm.zip'), 'wb') as f:
         s3.download_fileobj(bucket_UUID, object_name, f)
